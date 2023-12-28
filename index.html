@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>UAP WEB</title>
+  </head>
+  <body>
+    <table border="solid">
+      <thead>
+        <th>Kode</th>
+        <th>Barang</th>
+        <th>Harga</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Barang A</td>
+          <td id="001">10000</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Barang B</td>
+          <td id="002">20000</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Barang C</td>
+          <td id="003">30000</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>Inputan User</h1>
+    <table border="solid">
+      <tbody>
+        <tr>
+          <td>Masukan Kode</td>
+          <td>:</td>
+          <td><input type="number" id="input_kode" required /></td>
+        </tr>
+        <tr>
+          <td>Banyaknya Barang</td>
+          <td>:</td>
+          <td><input type="number" id="input_qty" required /></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><button onclick="process()">Submit</button></td>
+        </tr>
+      </tfoot>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
